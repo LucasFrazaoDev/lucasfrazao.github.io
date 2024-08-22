@@ -114,6 +114,34 @@
     max-width: 20px;
 }
 
+#artstation-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#artstation-container ion-icon,
+#artstation-container a {
+    flex: 1 1 0;
+}
+
+#artstation-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+}
+
+#artstation-container a:hover {
+    color: #3af098;
+    transition: 0.5s;
+}
+
+#artstation-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+}
+
 /* about container */
 #name {
     font-size: 42px;
