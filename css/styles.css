@@ -127,7 +127,7 @@
 #artstation-container a {
     color: var(--main-text-color);
     text-decoration: none;
-    max-width: 225px;
+    max-width: 100px;
 }
 
 #artstation-container a:hover {
